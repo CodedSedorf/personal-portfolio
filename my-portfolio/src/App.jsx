@@ -1,13 +1,17 @@
 // import { useState } from 'react'
+import { Route, Routes } from 'react-router-dom'
 import './App.css'
 import MyNavBar from './component/MyNavBar'
+import Landing from './component/Landing'
 
 function App() {
 
   return (
     <div className='App'>
       <MyNavBar/>
-      <h1 className='font-primary'>Hello world</h1>
+      <Routes>
+        <Route path='/' element={<Landing/>}/>
+      </Routes>
     </div>
   )
 }

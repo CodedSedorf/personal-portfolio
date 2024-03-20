@@ -11,14 +11,14 @@ const MyNavBar = () => {
         <div className="n-right">
             <div className='n-list'>
                 <ul>
-                    <li>Home</li>
-                    <li>Services</li>
-                    <li>Exprience</li>
-                    <li>Portfolio</li>
-                    <li>Testimonial</li>
+                    <li class="hover:text-blue-500 transition-colors duration-300">Home</li>
+                    <li class="hover:text-blue-500 transition-colors duration-300">Services</li>
+                    <li class="hover:text-blue-500 transition-colors duration-300">Experience</li>
+                    <li class="hover:text-blue-500 transition-colors duration-300">Portfolio</li>
+                    <li class="hover:text-blue-500 transition-colors duration-300">Testimonial</li>
                 </ul>
             </div>
-            <button className='button'>
+            <button className='button hover:text-blue-500 transition-colors duration-300'>
                 Contact Me
             </button>
         </div>
