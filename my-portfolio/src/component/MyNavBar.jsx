@@ -1,5 +1,6 @@
 import React from 'react'
 import "../component/MyNavBar.css"
+import resume from "../../assets/My Woman.pdf"
 
 const MyNavBar = () => {
   return (
@@ -18,9 +19,12 @@ const MyNavBar = () => {
                     <li class="hover:text-blue-500 transition-colors duration-300">Testimonial</li>
                 </ul>
             </div>
-            <button className='button hover:text-blue-500 transition-colors duration-300'>
-                Contact Me
+          <a href={resume} download>
+           <button className='button hover:text-blue-500 transition-colors duration-300'>
+                Marry Me
             </button>
+          </a>
+            
         </div>
     </div>
   )
